@@ -1,0 +1,131 @@
+
+body {
+	background-color: white
+}
+
+title {
+	color: #730800 
+
+}
+
+h1 {
+	font-family: "Bernard MT Condensed", impact, sans-serif;  
+}
+
+h1 {
+	color: #A91101;
+}
+ 
+h2 {
+	font-family: "Bernard MT Condensed", impact, sans-serif;
+	color: color: #A91101;
+}
+
+h3 {
+	color: #A91101; 
+}
+
+h4 {
+	color: #A91101;
+}
+
+p {
+	font-size: medium;
+}
+
+
+
+#menu {
+	width: 30%;
+	height: 100%;
+	position: fixed;
+	background: linear-gradient(#C0392b, #D35400);
+	padding: 20px;
+	color: #FFF; 
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 2;
+}
+
+#menu a {
+	color: #FFF;
+}
+
+#menu .main-nav {
+	margin-top : 30px;
+}
+
+#menu .main-nav li {
+	margin-bottom: 25px;
+}
+
+#menu .main-nav .sub-nav li {
+	margin-bottom: 0px;
+}
+
+#menu .main-nav .sub-nav {
+	margin-bottom: 5px;
+}
+
+
+#content {
+	margin-left: 30%;
+	padding: 20px;
+	text-align: justify;
+	padding-top: 100px;
+}
+
+.title {
+	font-size: 20px; 
+}
+
+figure {
+	margin-bottom: 10px
+}
+
+img {
+	margin : auto;
+	max-width: 100%;
+}
+
+#kiki {
+	top: 10px;
+	position: absolute;
+	animation: kikifly 4s infinite;
+	z-index: 1;
+}
+
+@keyframes kikifly {
+	0% {
+		right: -75px;
+	}
+	50% {
+		right: 70%;
+		-moz-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);	
+	}
+	51% {
+		right: 70%;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";	
+	}
+	100% {
+		right: -75px;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+	}
+}
+
+.white {
+	color: #FFF
+}
